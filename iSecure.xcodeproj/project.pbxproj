@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		2C614AB32088AC4200CD3455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AB22088AC4200CD3455 /* AppDelegate.swift */; };
-		2C614AB52088AC4200CD3455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AB42088AC4200CD3455 /* ViewController.swift */; };
 		2C614AB82088AC4200CD3455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C614AB62088AC4200CD3455 /* Main.storyboard */; };
 		2C614ABB2088AC4200CD3455 /* iSecure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AB92088AC4200CD3455 /* iSecure.xcdatamodeld */; };
 		2C614ABD2088AC4300CD3455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C614ABC2088AC4300CD3455 /* Assets.xcassets */; };
 		2C614AC02088AC4300CD3455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C614ABE2088AC4300CD3455 /* LaunchScreen.storyboard */; };
+		2C614AC82088AC8300CD3455 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AC72088AC8300CD3455 /* CoreDataHelper.swift */; };
+		2C614ACA2088BE8800CD3455 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AC92088BE8800CD3455 /* GetStarted.swift */; };
+		2C614ACC2088BEB700CD3455 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614ACB2088BEB700CD3455 /* Login.swift */; };
+		2C614ACE2088BEC400CD3455 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614ACD2088BEC300CD3455 /* Generate.swift */; };
+		2C614AD02088BF0B00CD3455 /* AllAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614ACF2088BF0B00CD3455 /* AllAccounts.swift */; };
+		2C614AD22088BF1900CD3455 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AD12088BF1900CD3455 /* CreateAccount.swift */; };
+		2C614AD42088BF2C00CD3455 /* ShowAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AD32088BF2C00CD3455 /* ShowAccount.swift */; };
+		2C614AD62088BF3A00CD3455 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AD52088BF3A00CD3455 /* Settings.swift */; };
+		2C614AD82088C11A00CD3455 /* SingleToneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C614AD72088C11A00CD3455 /* SingleToneClass.swift */; };
+		2C8703A1209349030066E3D0 /* HomeAccountTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8703A0209349030066E3D0 /* HomeAccountTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C614AAF2088AC4200CD3455 /* iSecure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSecure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C614AB22088AC4200CD3455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C614AB42088AC4200CD3455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C614AB72088AC4200CD3455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C614ABA2088AC4200CD3455 /* iSecure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSecure.xcdatamodel; sourceTree = "<group>"; };
 		2C614ABC2088AC4300CD3455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C614ABF2088AC4300CD3455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C614AC12088AC4300CD3455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C614AC72088AC8300CD3455 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		2C614AC92088BE8800CD3455 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
+		2C614ACB2088BEB700CD3455 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2C614ACD2088BEC300CD3455 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+		2C614ACF2088BF0B00CD3455 /* AllAccounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAccounts.swift; sourceTree = "<group>"; };
+		2C614AD12088BF1900CD3455 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		2C614AD32088BF2C00CD3455 /* ShowAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAccount.swift; sourceTree = "<group>"; };
+		2C614AD52088BF3A00CD3455 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2C614AD72088C11A00CD3455 /* SingleToneClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleToneClass.swift; sourceTree = "<group>"; };
+		2C8703A0209349030066E3D0 /* HomeAccountTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAccountTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		2C614AB12088AC4200CD3455 /* iSecure */ = {
 			isa = PBXGroup;
 			children = (
+				2C87039B2093486A0066E3D0 /* Model */,
+				2C614AC72088AC8300CD3455 /* CoreDataHelper.swift */,
 				2C614AB22088AC4200CD3455 /* AppDelegate.swift */,
-				2C614AB42088AC4200CD3455 /* ViewController.swift */,
-				2C614AB62088AC4200CD3455 /* Main.storyboard */,
+				2C614AD72088C11A00CD3455 /* SingleToneClass.swift */,
+				2C87039C209348730066E3D0 /* Views */,
+				2C87039D209348810066E3D0 /* Controllers */,
 				2C614ABC2088AC4300CD3455 /* Assets.xcassets */,
-				2C614ABE2088AC4300CD3455 /* LaunchScreen.storyboard */,
 				2C614AC12088AC4300CD3455 /* Info.plist */,
-				2C614AB92088AC4200CD3455 /* iSecure.xcdatamodeld */,
 			);
 			path = iSecure;
+			sourceTree = "<group>";
+		};
+		2C87039B2093486A0066E3D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C614AB92088AC4200CD3455 /* iSecure.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C87039C209348730066E3D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C614AB62088AC4200CD3455 /* Main.storyboard */,
+				2C614ABE2088AC4300CD3455 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C87039D209348810066E3D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C87039F209348D10066E3D0 /* TableViewCells */,
+				2C87039E209348AD0066E3D0 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C87039E209348AD0066E3D0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C614AC92088BE8800CD3455 /* GetStarted.swift */,
+				2C614ACB2088BEB700CD3455 /* Login.swift */,
+				2C614ACD2088BEC300CD3455 /* Generate.swift */,
+				2C614ACF2088BF0B00CD3455 /* AllAccounts.swift */,
+				2C614AD12088BF1900CD3455 /* CreateAccount.swift */,
+				2C614AD32088BF2C00CD3455 /* ShowAccount.swift */,
+				2C614AD52088BF3A00CD3455 /* Settings.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2C87039F209348D10066E3D0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C8703A0209349030066E3D0 /* HomeAccountTVCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C614AB52088AC4200CD3455 /* ViewController.swift in Sources */,
+				2C614AD02088BF0B00CD3455 /* AllAccounts.swift in Sources */,
+				2C614AD42088BF2C00CD3455 /* ShowAccount.swift in Sources */,
 				2C614AB32088AC4200CD3455 /* AppDelegate.swift in Sources */,
+				2C614AD82088C11A00CD3455 /* SingleToneClass.swift in Sources */,
+				2C614ACC2088BEB700CD3455 /* Login.swift in Sources */,
+				2C614AD62088BF3A00CD3455 /* Settings.swift in Sources */,
+				2C8703A1209349030066E3D0 /* HomeAccountTVCell.swift in Sources */,
+				2C614ACE2088BEC400CD3455 /* Generate.swift in Sources */,
+				2C614AC82088AC8300CD3455 /* CoreDataHelper.swift in Sources */,
+				2C614ACA2088BE8800CD3455 /* GetStarted.swift in Sources */,
 				2C614ABB2088AC4200CD3455 /* iSecure.xcdatamodeld in Sources */,
+				2C614AD22088BF1900CD3455 /* CreateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
